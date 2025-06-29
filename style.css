@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .5s ease-in-out;
+    list-style-type: none;
+}
+
+.line {
+    height: 4px;
+    width: 100%;
+    background-color: rgb(31, 30, 30);
+}
+
+.inline {
+    height: 3px;
+    width: 30%;
+    background-color: gold;
+}
+
+.border-gold {
+    border-bottom: solid 1px gold !important;
+    border-top: solid 1px gold !important;
+}
+.border-gold2{
+    border: solid 1px gold !important;
+
+}
+
+h1,
+h2,
+h3 {
+
+    font-family: "Urbanist", sans-serif;
+  
+    font-optical-sizing: auto;
+
+}
+
+p,
+a,
+li {
+    font-family: "Roboto", sans-serif;
+
+}
+
+.container-fluid {
+    padding: 0 3rem !important;
+}
+
+.gold {
+    /* color: gold !important; */
+    color: #ffcc00 !important;
+}
+
+.bg-gold {
+    background-color: #ffcc00;
+}
+
+.service-section {
+    border-top-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+}
+
+/* desktop */
+@media screen and (min-width:768px) {
+    h1 {
+        font-size: 4rem !important;
+    }
+    .dropdown-item:hover{
+     background-color: gold !important;
+     color: black !important;
+     font-size: 1.2rem;
+    }
+    .hero-section {
+        background-image: url('./assets/images/man-experiencing-virtual-reality.jpg');
+        background-size: cover;
+        background-blend-mode: overlay;
+        border-bottom-left-radius: 4rem;
+        border-bottom-right-radius: 4rem;
+        height: 40rem !important;
+    }
+
+    .about-section {
+        background-color: #37444c;
+    }
+
+    .card-img:hover {
+        transform: scale(1.1);
+    }
+
+    .why-writeup {
+        position: absolute;
+        top: 30%;
+    }
+
+    .service-section {
+        background-color: goldenrod;
+    }
+    .why-ul li{
+        font-size: 2rem !important;
+    }
+}
+
+/* mobile */
+@media screen and (max-width:768px) {
+    h1 {
+        font-size: 2.5rem !important;
+    }
+
+    .container-fluid {
+        padding: 0 1rem !important;
+    }
+
+    .hero-section {
+        background-image: url('./assets/images/man-experiencing-virtual-reality.jpg');
+        background-size: cover;
+        background-blend-mode: overlay;
+        height: 37rem !important;
+        background-position: center;
+    }
+
+    .service-section {
+        background-color: goldenrod;
+    }
+    .why-writeup {
+        position: absolute;
+        top: 10%;
+        font-size: 1rem !important;
+    }
+    .why-ul li{
+        font-size: 1rem !important;
+    }
+     .why-writeup h1{
+        font-size: 2rem !important;
+    }
+}
+@media screen and (min-width:800px ) {
+       .why-writeup {
+        position: absolute;
+        top:4rem;
+        font-size: 1rem !important;
+    }
+    .why-ul li{
+        font-size: 1.5rem !important;
+    }
+     .why-writeup h1{
+        /* font-size: 4rem !important; */
+    }
+    
+}     
+@media screen and (min-width:1024px ) {
+       .why-writeup {
+        position: absolute;
+        top:30%;
+        font-size: 1rem !important;
+    }
+    .why-ul li{
+        font-size: 1.5rem !important;
+    }
+     .why-writeup h1{
+        /* font-size: 4rem !important; */
+    }
+}     
+@media screen and (width:344px ) {
+     .fold{
+        display: none !important;
+     }
+}   
