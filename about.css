@@ -1,0 +1,87 @@
+/* mobile */
+@media screen and (max-width:768px) {
+    .about-nav{
+        background-image: url('./assets/images/top-view-desk-concept-with-laptop-mouse.jpg');
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: overlay;
+        height: 10rem;
+    }
+    .about-card{
+        background-color: #ffffff13;
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter:  blur(19px);
+    }
+    .about-card svg{
+        color:gold;
+        height: 2rem;
+        width: 2rem;
+        border: 1px solid gold;
+        padding: 1rem;
+        border-radius: 100%;
+    }
+    .about-how{
+        background-image: url('./assets/images/32902937_062134858628.jpg');
+        background-size: cover;
+        /* background-position: center; */
+    }
+    .ceo-img{
+       background-image: url("./assets/images/surprised-curly-male-student-looking-laptop-screen-indoor-shot-african-freelancer-wears-glasses.jpg") !important;
+        background-size: cover;
+        height: 20rem;
+        
+    }
+    .owner{
+        /* background-image: url("./assets/images/abstract-gradient-neon-lights.jpg"); */
+        background-size: cover;
+        background-position: center;
+    }
+    .ceo-right{
+        height: 20rem;
+    }
+}
+/* desktop */
+@media screen and (min-width:768px) {
+    .about-nav{
+        background-image: url('./assets/images/top-view-desk-concept-with-laptop-mouse.jpg');
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: overlay;
+        height: 10rem;
+    }
+    .about-card{
+        background-color: #ffffff13;
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter:  blur(19px);
+    }
+    .about-card svg{
+        color:gold;
+        height: 2rem;
+        width: 2rem;
+        border: 1px solid gold;
+        padding: 1rem;
+        border-radius: 100%;
+    }
+    .about-how{
+        background-image: url('./assets/images/32902937_062134858628.jpg');
+        background-size: cover;
+        /* background-position: center; */
+    }
+    .ceo-img{
+       background-image: url("./assets/images/surprised-curly-male-student-looking-laptop-screen-indoor-shot-african-freelancer-wears-glasses.jpg") !important;
+        background-size: cover;
+        height: 25rem;
+        border-bottom-left-radius: 2rem;
+        border-top-left-radius: 2rem;
+    }
+    .ceo-right{
+        height: 25rem;
+         border-bottom-right-radius: 2rem;
+        border-top-right-radius: 2rem;
+    }
+    .owner{
+        background-image: url("./assets/images/abstract-gradient-neon-lights.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+}
