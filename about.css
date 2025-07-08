@@ -38,6 +38,8 @@
     }
     .ceo-right{
         height: 20rem;
+        border-bottom-right-radius:3rem ;
+        border-bottom-left-radius: 3rem;
     }
 }
 /* desktop */
