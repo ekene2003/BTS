@@ -175,6 +175,9 @@ li {
      color: black !important;
      font-size: 1.2rem;
     }
+    .navbar-nav{
+        padding: 2rem !important;
+    }
     .container-fluid {
         padding: 0 1rem !important;
     }
