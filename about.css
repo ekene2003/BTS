@@ -41,6 +41,15 @@
         border-bottom-right-radius:3rem ;
         border-bottom-left-radius: 3rem;
     }
+    .about-w{
+        background-image: url('./assets/images/person-wearing-futuristic-high-tech-virtual-reality-glasses.jpg');
+        background-size: cover;
+        height: 20rem;
+        background-blend-mode: overlay;
+        background-color: rgb(32, 32, 32);
+    
+
+    }
 }
 /* desktop */
 @media screen and (min-width:768px) {
@@ -67,6 +76,8 @@
     .about-how{
         background-image: url('./assets/images/32902937_062134858628.jpg');
         background-size: cover;
+        /* background-color: rgb(172, 150, 150); */
+        /* background-blend-mode: overlay; */
         /* background-position: center; */
     }
     .ceo-img{
@@ -82,8 +93,17 @@
         border-top-right-radius: 2rem;
     }
     .owner{
-        background-image: url("./assets/images/abstract-gradient-neon-lights.jpg");
+        /* background-image: url("./assets/images/abstract-gradient-neon-lights.jpg"); */
         background-size: cover;
         background-position: center;
+    }
+    .about-w{
+        background-image: url('./assets/images/person-wearing-futuristic-high-tech-virtual-reality-glasses.jpg');
+        background-size: cover;
+        height: 20rem;
+        background-blend-mode: overlay;
+        background-color: rgb(54, 54, 54);
+        background-attachment: fixed;
+
     }
 }

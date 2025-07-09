@@ -4,6 +4,8 @@
     box-sizing: border-box;
     transition: all .5s ease-in-out;
     list-style-type: none;
+    scroll-behavior: smooth;
+    /* scrollbar-color: red; */
 }
 
 .line {
