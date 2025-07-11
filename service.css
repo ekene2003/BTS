@@ -86,14 +86,14 @@
       background-image: url('./assets/images/person-front-computer-working-html.jpg');
       background-size: cover;
       background-blend-mode: overlay;
-      background-color: rgb(59, 59, 59);
+      background-color: rgb(34, 34, 34);
    }
 
    .cb {
       background-image: url("./assets/images/cyber-security-concept-digital-art.jpg");
       background-size: cover;
       background-blend-mode: overlay;
-      background-color: grey;
+      background-color: rgb(17, 17, 17);
    }
 
    .app {
