@@ -1,102 +1,150 @@
 @media screen and (min-width:768px) {
- .wd{
-    background-image: url('./assets/images/person-front-computer-working-html.jpg');
-    background-size: cover;
-    background-blend-mode: overlay;
-    background-color: rgb(59, 59, 59);
- }
- .cb{
-    background-image: url("./assets/images/cyber-security-concept-digital-art.jpg");
-    background-size: cover;
-    background-blend-mode: overlay;
-    background-color: grey;
- }
- .app{
-    background-image: url("./assets/images/representations-user-experience-interface-design\ \(1\).jpg");
-    background-size: cover;
-    background-blend-mode: overlay;
-    background-color: rgb(32, 32, 32);
- }
- .it{
-    background-image: url("./assets/images/student-desk-talking-with-school-colleague-phone-call.jpg");
-    background-size: cover;
-    background-blend-mode: overlay;
-    background-color: rgb(32, 32, 32);
-    background-position:  center;
- }
- .gd{
-    background-image: url("./assets/images/3794291.jpg");
-    background-size: cover;
-    background-blend-mode: overlay;
-    background-color: rgb(32, 32, 32);
- }
- .ve{
-    background-image: url("./assets/images/vlogger-recording-video-using-professional-microphone.jpg");
-    background-size: cover;
-    background-blend-mode: overlay;
-    background-color: rgb(32, 32, 32);
- }
- .sm{
- background-image: url("./assets/images/11334568.jpg");
-    background-size: cover;
-    background-blend-mode: overlay;
-    background-color: rgb(32, 32, 32);
- }
- .ti{
- background-image: url("./assets/images/3d-character-emerging-from-smartphone.jpg");
-    background-size: cover;
-    background-blend-mode: overlay;
-    background-color: rgb(32, 32, 32);
- }
+   .wd {
+      background-image: url('./assets/images/person-front-computer-working-html.jpg');
+      background-size: cover;
+      background-blend-mode: overlay;
+      background-color: rgb(59, 59, 59);
+      height: 25rem !important;
+   }
+
+   .cb {
+      background-image: url("./assets/images/cyber-security-concept-digital-art.jpg");
+      background-size: cover;
+      background-blend-mode: overlay;
+      background-color: grey;
+      height: 25rem !important;
+
+   }
+
+   .app {
+      background-image: url("./assets/images/representations-user-experience-interface-design\ \(1\).jpg");
+      background-size: cover;
+      background-blend-mode: overlay;
+      background-color: rgb(32, 32, 32);
+      height: 25rem !important;
+
+   }
+
+   .it {
+      background-image: url("./assets/images/student-desk-talking-with-school-colleague-phone-call.jpg");
+      background-size: cover;
+      background-blend-mode: overlay;
+      background-color: rgb(32, 32, 32);
+      background-position: center;
+      height: 25rem !important;
+ 
+   }
+
+   .gd {
+      background-image: url("./assets/images/3794291.jpg");
+      background-size: cover;
+      background-blend-mode: overlay;
+      background-color: rgb(32, 32, 32);
+      height: 25rem !important;
+
+   }
+
+   .ve {
+      background-image: url("./assets/images/vlogger-recording-video-using-professional-microphone.jpg");
+      background-size: cover;
+      background-blend-mode: overlay;
+      background-color: rgb(32, 32, 32);
+      height: 25rem !important;
+
+   }
+
+   .sm {
+      background-image: url("./assets/images/11334568.jpg");
+      background-size: cover;
+      background-blend-mode: overlay;
+      background-color: rgb(32, 32, 32);
+      height: 25rem !important;
+
+   }
+
+   .ti {
+      background-image: url("./assets/images/3d-character-emerging-from-smartphone.jpg");
+      background-size: cover;
+      background-blend-mode: overlay;
+      background-color: rgb(32, 32, 32);
+      height: 25rem !important;
+
+   }
+   /* web dev service styling */
+   .service-body{
+      background-image: url('./assets/images/adult-doing-fitness-through-virtual-reality.jpg');
+      background-size: cover;
+      height: 20rem;
+      background-color: rgb(46, 44, 44);
+      background-blend-mode: overlay;
+      background-attachment: fixed;
+   }
 }
+
 @media screen and (max-width:768px) {
-    .wd{
-    background-image: url('./assets/images/person-front-computer-working-html.jpg');
-    background-size: cover;
-    background-blend-mode: overlay;
-    background-color: rgb(59, 59, 59);
- }
- .cb{
-    background-image: url("./assets/images/cyber-security-concept-digital-art.jpg");
-    background-size: cover;
-    background-blend-mode: overlay;
-    background-color: grey;
- }
- .app{
-    background-image: url("./assets/images/representations-user-experience-interface-design\ \(1\).jpg");
-    background-size: cover;
-    background-blend-mode: overlay;
-    background-color: rgb(32, 32, 32);
- }
- .it{
-    background-image: url("./assets/images/student-desk-talking-with-school-colleague-phone-call.jpg");
-    background-size: cover;
-    background-blend-mode: overlay;
-    background-color: rgb(32, 32, 32);
-    background-position:  center;
- }
- .gd{
-    background-image: url("./assets/images/3794291.jpg");
-    background-size: cover;
-    background-blend-mode: overlay;
-    background-color: rgb(32, 32, 32);
- }
- .ve{
-    background-image: url("./assets/images/vlogger-recording-video-using-professional-microphone.jpg");
-    background-size: cover;
-    background-blend-mode: overlay;
-    background-color: rgb(32, 32, 32);
- }
-  .sm{
- background-image: url("./assets/images/11334568.jpg");
-    background-size: cover;
-    background-blend-mode: overlay;
-    background-color: rgb(32, 32, 32);
- }
- .ti{
- background-image: url("./assets/images/3d-character-emerging-from-smartphone.jpg");
-    background-size: cover;
-    background-blend-mode: overlay;
-    background-color: rgb(32, 32, 32);
- }
+   .wd {
+      background-image: url('./assets/images/person-front-computer-working-html.jpg');
+      background-size: cover;
+      background-blend-mode: overlay;
+      background-color: rgb(59, 59, 59);
+   }
+
+   .cb {
+      background-image: url("./assets/images/cyber-security-concept-digital-art.jpg");
+      background-size: cover;
+      background-blend-mode: overlay;
+      background-color: grey;
+   }
+
+   .app {
+      background-image: url("./assets/images/representations-user-experience-interface-design\ \(1\).jpg");
+      background-size: cover;
+      background-blend-mode: overlay;
+      background-color: rgb(32, 32, 32);
+   }
+
+   .it {
+      background-image: url("./assets/images/student-desk-talking-with-school-colleague-phone-call.jpg");
+      background-size: cover;
+      background-blend-mode: overlay;
+      background-color: rgb(32, 32, 32);
+      background-position: center;
+   }
+
+   .gd {
+      background-image: url("./assets/images/3794291.jpg");
+      background-size: cover;
+      background-blend-mode: overlay;
+      background-color: rgb(32, 32, 32);
+   }
+
+   .ve {
+      background-image: url("./assets/images/vlogger-recording-video-using-professional-microphone.jpg");
+      background-size: cover;
+      background-blend-mode: overlay;
+      background-color: rgb(32, 32, 32);
+   }
+
+   .sm {
+      background-image: url("./assets/images/11334568.jpg");
+      background-size: cover;
+      background-blend-mode: overlay;
+      background-color: rgb(32, 32, 32);
+   }
+
+   .ti {
+      background-image: url("./assets/images/3d-character-emerging-from-smartphone.jpg");
+      background-size: cover;
+      background-blend-mode: overlay;
+      background-color: rgb(32, 32, 32);
+   }
+   .service h1{
+      text-align: center !important;
+      margin: 2rem 0;
+   }
+   .services-list p{
+      text-align: center;
+      margin: 2rem 0;
+      
+   }
 }
