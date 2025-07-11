@@ -86,28 +86,28 @@
       background-image: url('./assets/images/person-front-computer-working-html.jpg');
       background-size: cover;
       background-blend-mode: overlay;
-      background-color: rgb(34, 34, 34);
+      background-color: rgb(34, 34, 34) !important;
    }
 
    .cb {
       background-image: url("./assets/images/cyber-security-concept-digital-art.jpg");
       background-size: cover;
       background-blend-mode: overlay;
-      background-color: rgb(17, 17, 17);
+      background-color: rgb(17, 17, 17) !important;
    }
 
    .app {
       background-image: url("./assets/images/representations-user-experience-interface-design\ \(1\).jpg");
       background-size: cover;
       background-blend-mode: overlay;
-      background-color: rgb(32, 32, 32);
+      background-color: rgb(32, 32, 32) !important;
    }
 
    .it {
       background-image: url("./assets/images/student-desk-talking-with-school-colleague-phone-call.jpg");
       background-size: cover;
       background-blend-mode: overlay;
-      background-color: rgb(32, 32, 32);
+      background-color: rgb(32, 32, 32) !important;
       background-position: center;
    }
 
@@ -115,28 +115,28 @@
       background-image: url("./assets/images/3794291.jpg");
       background-size: cover;
       background-blend-mode: overlay;
-      background-color: rgb(32, 32, 32);
+      background-color: rgb(32, 32, 32) !important;
    }
 
    .ve {
       background-image: url("./assets/images/vlogger-recording-video-using-professional-microphone.jpg");
       background-size: cover;
       background-blend-mode: overlay;
-      background-color: rgb(32, 32, 32);
+      background-color: rgb(32, 32, 32) !important;
    }
 
    .sm {
       background-image: url("./assets/images/11334568.jpg");
       background-size: cover;
       background-blend-mode: overlay;
-      background-color: rgb(32, 32, 32);
+      background-color: rgb(32, 32, 32) !important;
    }
 
    .ti {
       background-image: url("./assets/images/3d-character-emerging-from-smartphone.jpg");
       background-size: cover;
       background-blend-mode: overlay;
-      background-color: rgb(32, 32, 32);
+      background-color: rgb(32, 32, 32) !important;
    }
    .service h1{
       text-align: center !important;
