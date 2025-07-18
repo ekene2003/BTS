@@ -199,6 +199,17 @@
       text-align: end;
       
    }
+   /* bills styling */
+   .contact-r4{
+      background-image: url('./assets/images/grocery-1232944_1280.jpg');
+      background-size: cover;
+      height: 15rem;
+   }
+   .contact-r5{
+            background-image: url('./assets/images/2451581_14200.jpg');
+      background-size: cover;
+      height: 15rem;
+   }
    .socail-links svg{
       height: 2rem;
       padding: .5rem;
