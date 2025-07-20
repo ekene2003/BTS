@@ -26,9 +26,10 @@
         /* background-position: center; */
     }
     .ceo-img{
-       background-image: url("./assets/images/surprised-curly-male-student-looking-laptop-screen-indoor-shot-african-freelancer-wears-glasses.jpg") !important;
+       background-image: url("./assets/images/Screenshot_20250719_234845_Instagram.jpg") !important;
         background-size: cover;
         height: 20rem;
+        background-position: center;
         
     }
     .owner{
@@ -81,11 +82,12 @@
         /* background-position: center; */
     }
     .ceo-img{
-       background-image: url("./assets/images/surprised-curly-male-student-looking-laptop-screen-indoor-shot-african-freelancer-wears-glasses.jpg") !important;
+       background-image: url("./assets/images/Screenshot_20250719_234845_Instagram.jpg") !important;
         background-size: cover;
         height: 25rem;
         border-bottom-left-radius: 2rem;
         border-top-left-radius: 2rem;
+        background-position: center;
     }
     .ceo-right{
         height: 25rem;
